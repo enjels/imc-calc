@@ -1,6 +1,6 @@
-# React + Vite
+# Calculadora De IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma calculadora sendo desenvolvida em react para calcular imc de qualquer usuário
 
 Currently, two official plugins are available:
 
