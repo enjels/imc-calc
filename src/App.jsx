@@ -3,6 +3,7 @@ import {data} from "./data/data.js";
 import { useState } from 'react'
 import ImcCalc from './components/ImcCalc'
 import './App.css'
+import ImcTable from "./components/ImcTable";
 
 
 

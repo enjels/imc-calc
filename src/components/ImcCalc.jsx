@@ -3,28 +3,28 @@ import Button from "./Button";
 import "./ImcCalc.css";
 
 const ImcCalc = (calcImc) => {
-  const [height,setHeight] = useState("")
-  const [weight, setWeight] = useState("")
-  
-  const clearForm = (e) => {
-    e.preventDefault()
-    setHeight("")
-    setWeight("")
-  }
-  
-  const validDigit = (text) => {
-   return text.replace(/[^0-9,]/g,"")
-  }
+  const [height, setHeight] = useState("");
+  const [weight, setWeight] = useState("");
 
+  const clearForm = (e) => {
+    e.preventDefault();
+    setHeight("");
+    setWeight("");
+  };
+
+  const validDigit = (text) => {
+    return text.replace(/[^0-9,]/g, "");
+  };
+  console.log(height, weight);
   const handleHeightChange = (e) => {
     const updatedValue = validDigit(e.target.value);
-    setHeight(updatedValue)
-  }
+    setHeight(updatedValue);
+  };
 
   const handleWidthChange = (e) => {
-    const updatedValue = validDigit(e.target.value)
-    setWeight(updatedValue)
-  }
+    const updatedValue = validDigit(e.target.value);
+    setWeight(updatedValue);
+  };
 
   return (
     <div id="calc-container">
@@ -55,7 +55,11 @@ const ImcCalc = (calcImc) => {
           </div>
         </div>
         <div className="action-control">
-          <Button id="calc-btn" text="Calcular" action={calcImc} />
+          <Button
+            id="calc-btn"
+            text="Calcular"
+            action={(e) => calcImc(e, height, weight)}
+          />
           <Button id="clear-btn" text="Limpar" action={clearForm} />
         </div>
       </form>
