@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import Button from "./Button";
 import "./ImcCalc.css";
@@ -15,7 +16,7 @@ const ImcCalc = ({calcImc}) => {
   const validDigit = (text) => {
     return text.replace(/[^0-9,]/g, "");
   };
-  console.log(height, weight);
+  // console.log(height, weight);
   const handleHeightChange = (e) => {
     const updatedValue = validDigit(e.target.value);
     setHeight(updatedValue);

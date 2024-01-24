@@ -19,23 +19,23 @@ function App() {
 
     if (!weight || !height) return;
     const weightFloat =+ weight.replace(",", ".")
-    const heightFloat = + height.replace(",", ".")
-    
+    const heightFloat =+ height.replace(",", ".")
+
     const imcResult = weightFloat / (heightFloat * heightFloat).toFixed(1)
-    
-    alert(imcResult)
+    console.log("Executou")
+    // setImc(imcResult)
 
   }
 
   const [imc, setImc] = useState("")
   const [info, setInfo] = useState("")
   const [infoClass, setInfoClass] = useState("")
-  
+
   return (
     <div className="container">
       {!imc ? (
         <ImcCalc calcImc={calcImc} />
-        
+
       ) : (
           <ImcTable/>
       )}
