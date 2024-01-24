@@ -12,13 +12,18 @@ import './App.css'
 
 function App() {
 
-  const calcImc = (e) => {
+  const calcImc = (e, height, weight) => {
     e.preventDefault();
 
-    // console.log(height, weight)
-    // if (!weight || !height) return;
+    console.log(height, weight)
 
-    console.log("executou")
+    if (!weight || !height) return;
+    const weightFloat =+ weight.replace(",", ".")
+    const heightFloat = + height.replace(",", ".")
+    
+    const imcResult = weightFloat / (heightFloat * heightFloat).toFixed(1)
+    
+    alert(imcResult)
 
   }
 
@@ -30,6 +35,7 @@ function App() {
     <div className="container">
       {!imc ? (
         <ImcCalc calcImc={calcImc} />
+        
       ) : (
           <ImcTable/>
       )}

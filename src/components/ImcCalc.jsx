@@ -58,7 +58,7 @@ const ImcCalc = ({calcImc}) => {
           <Button
             id="calc-btn"
             text="Calcular"
-            action={calcImc}
+            action={(e)=>calcImc(e, height,weight)}
           />
           <Button id="clear-btn" text="Limpar" action={clearForm} />
         </div>
