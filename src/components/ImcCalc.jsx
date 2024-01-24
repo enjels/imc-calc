@@ -11,7 +11,7 @@ const ImcCalc = () => {
     setHeight("")
     setWeight("")
   }
-  
+  console.log(height, weight);
   const validDigit = (text) => {
    return text.replace(/[^0-9,]/g,"")
   }
