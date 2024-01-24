@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
 import "./Button.css"
 
-const Button = ({id,text}) => {
+const Button = ({ id, text, action }) => {
+  const handleAction = (e) => {
+    action(e)
+  }
   return (
-    <button id={id}>{text}</button>
+    <button id={id} onChange={handleAction}>{text}</button>
   )
 }
 
