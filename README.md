@@ -1,8 +1,8 @@
 # Calculadora De IMC
 
 ## Uma calculadora em react para calcular imc de qualquer usuário
-<p>⬇️links abaixo⬇️ </p>
-<p> Aplicação disponivel para uso: [https://lnkd.in/dGV9VPbe](https://imc-calc-murex.vercel.app/) </p>
+<p> Aplicação disponivel ⬇️links abaixo⬇️</p>
+<p> https://lnkd.in/dGV9VPbe](https://imc-calc-murex.vercel.app/ </p>
 
 
 ![Captura de tela 2024-01-23 145927](https://github.com/enjels/imc-calc/assets/90569314/f9bf4d48-9652-4f3d-b7ce-e02b1d44aaa3) ![Captura de tela 2024-01-23 145953](https://github.com/enjels/imc-calc/assets/90569314/b4dab58c-1e2e-4c61-8a8a-376f65cb7d01)
