@@ -14,7 +14,7 @@ export const data = [
     classification: "Entre 18,5 e 24,9",
     info: "Normal",
     obesity: "0",
-    infoClass: "Good",
+    infoClass: "good",
 
 },
     {
