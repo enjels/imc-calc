@@ -20,7 +20,6 @@ function App() {
     const heightFloat =+ height.replace(",", ".")
 
     const imcResult = weightFloat / (heightFloat * heightFloat).toFixed(1)
-=======
     
     setImc(imcResult)
     
@@ -37,7 +36,6 @@ function App() {
     setImc("")
     setInfo("")
     setInfoClass("")
->>>>>>> v0.2
   }
 
   const [imc, setImc] = useState("")
