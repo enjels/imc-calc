@@ -20,10 +20,6 @@ function App() {
     const heightFloat =+ height.replace(",", ".")
 
     const imcResult = weightFloat / (heightFloat * heightFloat).toFixed(1)
-<<<<<<< HEAD
-    // console.log(imcResult)
-    setImc(imcResult)
-
 =======
     
     setImc(imcResult)
