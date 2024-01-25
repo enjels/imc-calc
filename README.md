@@ -2,5 +2,13 @@
 
 Uma calculadora sendo desenvolvida em react para calcular imc de qualquer usuário
 
-<video class="vjs-tech" data-sources="[{&quot;src&quot;:&quot;https://dms.licdn.com/playlist/vid/D4D05AQFbHI_VAedHjQ/mp4-640p-30fp-crf28/0/1706221524591?e=1706828400&amp;v=beta&amp;t=K9NGuPuHvPW3WHHaNIjXq7ecU6uZI-tp4GNKWvwjUwc&quot;,&quot;type&quot;:&quot;video/mp4&quot;,&quot;data-bitrate&quot;:41198},{&quot;src&quot;:&quot;https://dms.licdn.com/playlist/vid/D4D05AQFbHI_VAedHjQ/mp4-720p-30fp-crf28/0/1706221532983?e=1706828400&amp;v=beta&amp;t=lQYQdswiFgOf0VWp75Jwa1J-MbfarIxLB2ZU9aus8OY&quot;,&quot;type&quot;:&quot;video/mp4&quot;,&quot;data-bitrate&quot;:47175}]" data-poster-url="https://media.licdn.com/dms/image/D4D05AQFbHI_VAedHjQ/videocover-high/0/1706221515761?e=1706828400&amp;v=beta&amp;t=Y_kZbWeE38VIesXlIk2NlB0bed7eFLHhA-NfzeaH3aE" data-digitalmedia-asset-urn="urn:li:digitalmediaAsset:D4D05AQFbHI_VAedHjQ" data-tracking-id="tmWYu3iqR2KnkZPImyRVXw==" playsinline="playsinline" id="vjs_video_3_html5_api" tabindex="-1" role="application" poster="https://media.licdn.com/dms/image/D4D05AQFbHI_VAedHjQ/videocover-high/0/1706221515761?e=1706828400&amp;v=beta&amp;t=Y_kZbWeE38VIesXlIk2NlB0bed7eFLHhA-NfzeaH3aE" src="https://dms.licdn.com/playlist/vid/D4D05AQFbHI_VAedHjQ/mp4-640p-30fp-crf28/0/1706221524591?e=1706828400&amp;v=beta&amp;t=K9NGuPuHvPW3WHHaNIjXq7ecU6uZI-tp4GNKWvwjUwc">
-      </video>
+![Captura de tela 2024-01-23 145927](https://github.com/enjels/imc-calc/assets/90569314/f9bf4d48-9652-4f3d-b7ce-e02b1d44aaa3)
+
+![Captura de tela 2024-01-23 145953](https://github.com/enjels/imc-calc/assets/90569314/b4dab58c-1e2e-4c61-8a8a-376f65cb7d01)
+
+![Captura de tela 2024-01-23 150014](https://github.com/enjels/imc-calc/assets/90569314/10427928-2aba-44d1-aedb-14e1fbfbea21)
+
+![Captura de tela 2024-01-23 150026](https://github.com/enjels/imc-calc/assets/90569314/877e3daf-7c8e-4dc6-976b-7bc1d3329656)
+
+https://github.com/enjels/imc-calc/assets/90569314/9fe9d85d-3ec5-4019-99b6-6cefb6c66d9f
+
